@@ -4,6 +4,9 @@
 *{
     font-family: 'Balsamiq Sans', cursive;
     font-size: 20px;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
 a{
     text-decoration: none;
@@ -12,7 +15,6 @@ a{
 }
 h1
 {
-    border: black;
     font-weight: bolder;
     font-size: 60px;
 }
