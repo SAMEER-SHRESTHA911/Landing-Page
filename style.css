@@ -1,0 +1,143 @@
+@import url(https://fonts.googleapis.com);
+@import url(https://fonts.gstatic.com);
+@import url( https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap);
+*{
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+h1
+{
+    border: black;
+    font-weight: bolder;
+    font-size: 60px;
+}
+h2
+{
+    font-size: 30px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.header{
+    display: flex ;
+    flex: 2;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    color: honeydew;
+    border: grey;
+    border-radius: 8px;
+}
+.links
+{
+    display: flex;
+    flex: 0.2;
+    gap: 10px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin:20px;
+}
+.secondheader
+{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-size: center;
+    
+    
+}
+.intro
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.introone,.introtwo
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.donate
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    width: 100px;
+    height :50px;
+}
+
+.groupphoto
+{
+    display: flex;
+    align-items: flex-end;
+}
+.imageset
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.ringo,.paul,.john,.george
+{
+    margin: 20px;
+}
+.secondheader,.imageset,.quote,.bg
+{
+    background-image: url("image/yellow.jpg");
+}
+.quote{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    align-content: flex-start;
+}
+.quotej,.quoteg,.quotep,.quoter
+{
+    display: flex;
+    border: black;
+    border-radius: 5px;
+    border-style: 5px bold;
+}
+.name
+{
+    text-shadow: 6px -2px 0px rgba(176, 180, 185, 0.6);
+}
+.last
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    background-color:rgb(31, 29, 29);
+}
+.footer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 80px;
+}
+.sign
+{
+    height: 50px;
+}
+.list
+{
+    display: flex;
+    gap: 5px;
+}
